@@ -1,0 +1,187 @@
+/* TAGS */
+body {
+  font-family: 'Montserrat';
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* CLASSES */
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title */
+.heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 1% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 200;
+}
+
+.icon {
+  margin: auto 5px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 30%;
+  padding: 0 5%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features */
+.ico-md {
+  font-size: 3rem;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  color: #ef8172;
+}
+
+.ico-md:hover {
+  color: #ff4c68;
+}
+
+
+.feat-h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.feat-p {
+  color: #8f8f8f;
+  padding: 0 5% 0 5%;
+}
+
+/* Testimonials */
+.test-h2 {
+  font-weight: 900;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pric-h2 {
+  font-weight: 900;
+}
+
+.pric-h3 {
+  font-weight: 400;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+/* Download */
+.cta-h3 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Footer */
+.footer-p {
+  color: grey;
+}
+
+.footer-ico {
+  margin: 0 1% 2%;
+}
+
+.footer-a {
+  color: black;
+}
+
+.footer-a:hover {
+  color: #ff4c68;
+}
+
+#footer .container-fluid {
+  padding: 7% 15% 1%;
+}
+/* IDs */
+#title {
+  text-align: left;
+}
+
+#features {
+  z-index: 1;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#cta {
+
+}
+
+#footer {
+
+}
+
+/* MEDIA QUERY*/
+@media (max-width: 990px) {
+  .title-image {
+    position: static;
+    width: 75%;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
